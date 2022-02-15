@@ -1,0 +1,17 @@
+@import '../../global.scss';
+
+.header {
+    margin-bottom: 20px;
+    .headerTitle {
+        color: $secondTextColor;
+        margin-top: 0;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+
+    .headerInfo {
+        color: $mainTextColor;
+        font-size: 18px;
+        margin: 0;
+    }
+}

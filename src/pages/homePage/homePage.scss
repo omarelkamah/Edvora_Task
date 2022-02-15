@@ -1,0 +1,18 @@
+@import '../../global.scss';
+
+.homePage {
+  min-height: 100vh;
+  background: $mainColor;
+  color: white;
+  display: flex;
+  padding: 20px;
+  gap: 2%;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .otherComponents {
+      flex: 4;
+  }
+}

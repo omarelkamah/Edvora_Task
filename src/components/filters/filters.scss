@@ -1,0 +1,24 @@
+@import '../../global.scss';
+
+.filters {
+    flex: 1;
+    height: 50vh;
+    background: $secondMainColor;
+    padding: 20px;
+    border-radius: 20px;
+
+    .filtersTitle {
+        h3 {
+            color: $mainTextColor;
+            margin-top: 5px;
+            border-bottom: 4px solid $mainTextColor;
+            margin-bottom: 0;
+            padding-bottom: 15px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+
+}

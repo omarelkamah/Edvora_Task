@@ -1,0 +1,10 @@
+$mainColor: #292929;
+$secondMainColor: #131313;
+$mainTextColor: #787878;
+$secondTextColor: #e2e2e2;
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content
+    }
+}

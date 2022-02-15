@@ -1,0 +1,33 @@
+@import '../../global.scss';
+
+.productList {
+    width: 70vw;
+    overflow: hidden;
+
+    .productListTitle {
+        h2 {
+            color: $secondTextColor;
+            margin: 0;
+            border-bottom: 1px solid $secondTextColor;
+            padding-bottom: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+    }
+
+    .products {
+        background: $secondMainColor;
+        min-width: 90%;
+        margin-top: 20px;
+        padding: 25px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 30px;
+
+
+        .productsContainer {
+            display: flex;
+            align-items: center;            
+        }
+    }
+}
